@@ -15,18 +15,18 @@ var FLEE = true;
 var SCATTER_VELOCITY = 3;
 var SCATTER = true;
 
-// if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-//     // Mobile
-//     MESSAGE = document.getElementById("title-mobile").textContent;
-//
-//     FONT_SIZE = 100;
-//     AMOUNT = 2000;
-//     SIZE = 2;
-//     INITIAL_DISPLACEMENT = 100;
-//     SETTLE_SPEED = 1;
-//     FLEE = false;
-//     SCATTER_VELOCITY = 2;
-// }
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    // Mobile
+    MESSAGE = document.getElementById("title-mobile").textContent;
+
+    FONT_SIZE = 100;
+    AMOUNT = 2000;
+    SIZE = 2;
+    INITIAL_DISPLACEMENT = 100;
+    SETTLE_SPEED = 1;
+    FLEE = false;
+    SCATTER_VELOCITY = 2;
+}
 
 const canvas = document.getElementById("spring-text");
 const ctx = canvas.getContext("2d");
