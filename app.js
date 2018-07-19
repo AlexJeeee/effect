@@ -19,7 +19,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     // Mobile
     MESSAGE = document.getElementById("title-mobile").textContent;
 
-    FONT_SIZE = 50;
+    FONT_SIZE = 150;
     AMOUNT = 300;
     SIZE = 2;
     INITIAL_DISPLACEMENT = 100;
@@ -35,7 +35,7 @@ var POINTS = [];
 var MOUSE = {
     x: 0,
     y: 0
-}
+};
 
 function Point(x,y,r,g,b,a) {
     var angle = Math.random() * 6.28;
