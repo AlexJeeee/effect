@@ -19,8 +19,8 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     // Mobile
     MESSAGE = document.getElementById("title-mobile").textContent;
 
-    FONT_SIZE = 150;
-    AMOUNT = 1000;
+    FONT_SIZE = 100;
+    AMOUNT = 1500;
     SIZE = 2;
     INITIAL_DISPLACEMENT = 100;
     SETTLE_SPEED = 1;
